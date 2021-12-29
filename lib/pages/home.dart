@@ -63,6 +63,11 @@ class _HomeState extends State<Home> {
                       letterSpacing: 2.0,
                       fontWeight: FontWeight.bold,
                       color: Colors.grey[300],
+                      shadows: [
+                        Shadow(
+                          blurRadius: 5,
+                        ),
+                      ],
                     ),
                   )
                 ],
@@ -74,6 +79,11 @@ class _HomeState extends State<Home> {
                   fontSize: 66.0,
                   color: Colors.grey[300],
                   fontWeight: FontWeight.bold,
+                  shadows: [
+                    Shadow(
+                      blurRadius: 5,
+                    ),
+                  ],
                 ),
               )
             ],
